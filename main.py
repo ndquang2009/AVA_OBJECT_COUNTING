@@ -73,8 +73,10 @@ def get_live_counting(base_url, countingArea_id, cookies):
 # -------------------- Main program -------------------------------------------------------
 # -------------------- Declare deployment and account information -------------------------
 base_url = "https://msi-apac.au1.aware.avasecurity.com"
-username = "quang.nguyen@avigilon.com"
-password = "Av1gilon@pac"
+
+# Please input your account here
+username = ""
+password = ""
 
 # Login to get the authentication cookies
 auth_cookies = dologin(base_url,username,password)
